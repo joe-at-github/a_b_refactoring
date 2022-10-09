@@ -1,0 +1,7 @@
+D, [2022-08-31T13:25:07.538866 #11524] DEBUG -- :
+D, [2022-08-31T13:25:07.541077 #11524] DEBUG -- :
+I, [2022-08-31T13:25:07.543087 #11524]  INFO -- : Started POST "/products" for ::1 at 2022-08-31 13:25:07 +0100
+D, [2022-08-31T13:25:07.629679 #11524] DEBUG -- :   ActiveRecord::SchemaMigration Load (0.9ms)  SELECT "schema_migrations".* FROM "schema_migrations"
+I, [2022-08-31T13:25:07.839106 #11524]  INFO -- : Processing by ProductsController#create as HTML
+D, [2022-08-31T13:26:07.538866 #11524] DEBUG -- : "INSERT INTO `products` (`created_at`, `updated_at`, `provider_id`, `reference`, `quantity`) VALUES ('2022-07-28 14:57:15', '2022-07-28 14:57:15', 173, HJIK4, '7')"
+"UPDATE `providers` SET `provider_id` = 15935967, `updated_at` = '2022-07-28 09:34:00', `id` = 15436376, `status` = 'live' WHERE `providers`.`id` = 15436376"
