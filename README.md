@@ -54,19 +54,11 @@ bundle exec rspec spec/resources_spec.rb -e 'products'
 Running the `spec/resources_spec.rb` you will be presented with the following failure.
 
 ```bash
-     Failure/Error: expect(application_a_object).to eq application_b_object
+  1) resources product generate the same attributes
+     Failure/Error: expect(application_b_object).to eq application_a_object
 
-       expected: {"provider_id"=>"173", "quantity"=>"0"}
-            got: {"provider_id"=>"173", "quantity"=>"7", "reference"=>"HJIK4"}
-
-       (compared using ==)
-
-       Diff:
-       @@ -1,3 +1,4 @@
-        "provider_id" => "173",
-       -"quantity" => "0",
-       +"quantity" => "7",
-       +"reference" => "HJIK4",
+       expected: {"provider_id"=>"173", "quantity"=>"7", "reference"=>"HJIK4"}
+            got: {"provider_id"=>"173", "quantity"=>"0"}
 ```
 
 This illustrates that application b is not currently matching all actions performed by application a.

@@ -8,7 +8,7 @@ RSpec.describe 'resources' do
     let(:application_b_object) { YAML.safe_load(fixture('b/product.yml').read) }
 
     it 'generate the same attributes' do
-      expect(application_a_object).to eq application_b_object
+      expect(application_b_object).to eq application_a_object
     end
   end
 
@@ -17,7 +17,7 @@ RSpec.describe 'resources' do
     let(:application_b_object) { YAML.safe_load(fixture('b/provider.yml').read) }
 
     it 'generate the same attributes' do
-      expect(application_a_object).to eq application_b_object
+      expect(application_b_object).to eq application_a_object
     end
   end
 end
