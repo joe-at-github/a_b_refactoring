@@ -13,7 +13,7 @@ None required, this is a simple repository ready to be used.
 
 #### Turning server logs into fixtures
 ##### Output resources created in database calls, for application a, as YAML.
-`ruby log_parser.rb a`
+`bundle exec ruby log_parser.rb a`
 ```bash
 ---
 insert_products:
@@ -27,7 +27,7 @@ update_providers:
 ```
 
 ##### Output resources created in database calls, for application a, as Hashes.
-`ruby log_parser.rb a hashes`
+`bundle exec ruby log_parser.rb a hashes`
 
 ```ruby
 {"provider_id"=>"173", "quantity"=>"7", "reference"=>"HJIK4"}

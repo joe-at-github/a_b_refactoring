@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/joe-at-github/sql_statement_parsing
+  revision: 61a4be289b687c0d49f14d5d90a14f06c5c3a7a7
+  tag: v0.1.0
+  specs:
+    sql_statement_parsing (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -47,10 +54,10 @@ GEM
     rubocop-ast (1.21.0)
       parser (>= 3.1.1.0)
     ruby-progressbar (1.11.0)
-    sql_statement_parsing (0.1.0)
     unicode-display_width (2.3.0)
 
 PLATFORMS
+  arm64-darwin-23
   x86_64-darwin-21
 
 DEPENDENCIES
@@ -58,7 +65,7 @@ DEPENDENCIES
   rspec
   rspec-file_fixtures (~> 0.1.6)
   rubocop
-  sql_statement_parsing
+  sql_statement_parsing!
 
 BUNDLED WITH
    2.3.21
